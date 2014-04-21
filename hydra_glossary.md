@@ -59,7 +59,7 @@ A popular website for sharing code managed by Git software. UC has an institutio
 One or many connected RDF statements. In a graph data, relationships are arbitrarily expressed through the relations descibed by the RDF statements, as opposed to though the structure of the a hierachical database.
 
 #### Hydra
-Hydra is a software framework (Hydra Head), a organization of instutions (Hydra Partners), and a community of users (Hydra Adoptors). In the software framework context, Hydra is a set of gems that provide familiar, Ruby on Rails patterns for connecting Fedora to a Rails application, including connections to the Solr search platform through the Blacklight gem.
+Hydra is a software framework, a organization of instutions (Hydra Partners), and a community of users (Hydra Adoptors). In the software framework context, Hydra is a set of gems that provide familiar, Ruby on Rails patterns for connecting Fedora to a Rails application, including connections to the Solr search platform through the Blacklight gem. Hydra software is maintained on Github at [https://github.com/projecthydra](https://github.com/projecthydra)
 
 #### Hydra Adopters
 Individuals or institutions who are using the Hydra framework without having joined the project as a partner. Developers working within this category are able to contribute to the project after signing agreements which ensure that the code they share is under an open source license.
@@ -77,11 +77,13 @@ Formerly the Shared-IR project, Hydramata is a collaborative project between the
 A data format used to transmit human-readable data with machine-readable structure. JSON is commonly used in manipulating data for user interfaces. Tooling for parsing and creating JSON is easily available in all major programming languages.
 
 #### (RDF) Literal
-A human readable value of an element in an RDF triple (as opposed to a URI, which is a reference to information stored elsewhere). For example, ‘Cheese’ is a literal value, and this is a URI for the same value in the Library of Congress Subject Headings: [http://id.loc.gov/authorities/subjects/sh85022845.html](http://id.loc.gov/authorities/subjects/sh85022845.html)
+The use of human-friendly string as an element in an RDF triple (as opposed to the use of a URI, which is a reference to information stored elsewhere). For example, 'Cheese' is a literal value, and this is a URI for the same value in the Library of Congress Subject Headings: [http://id.loc.gov/authorities/subjects/sh85022845.html](http://id.loc.gov/authorities/subjects/sh85022845.html)
 
 #### Model
+The central component and the M of MVC architecture, the model handles application data, and most of the logic of a web application. In Hydra, most of the modeling concerning applicaiton data uses the ActiveFedora gem.
 
 #### MVC (or Model-view-controller)
+A software pattern for implementing user interfaces. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user. [Shamelessly lifted from Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). Ruby on Rails, and therefore Hydra, uses MVC architecture.
 
 #### LDAP
 
