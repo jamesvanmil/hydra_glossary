@@ -85,19 +85,24 @@ The central component and the M of MVC architecture, the model handles applicati
 #### MVC (or Model-view-controller)
 A software pattern for implementing user interfaces. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user. [Shamelessly lifted from Wikipedia](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). Ruby on Rails, and therefore Hydra, uses MVC architecture.
 
-#### LDAP
+#### LDAP (or Lightweight Directory Access Protocol)
+A standard for maintaining user account information online. This is widely used at UC and UC Libraries.
 
-#### Linked Open Data
+#### Linked Open Data (or LOM)
+RDF data, openly published on the Web with stable URIs, which uses references to URIs in other datasets to create connections between datasets.
 
 #### (Digital) Object
 
 #### (Fedora) Object
 
 #### (RDF) Object
+In an RDF statement, the object of the predicate. This is similar to a gramatical object. Objects in RDF are analygous to the values used in fields in traditional, hierarchical data structures.
 
 #### Ontology
+A representation of knowledge (usually within a domain) as a hierarchy of concepts and relationships. Many ontologies are published online for easy sharing an referencing as Linked Open Data. The terms 'vocabulary' and 'ontology' are often used interchangably, though ontolgies tend to be more formal and complex.
 
 #### Open Source
+A model of production which promotes free access to the design of a product via a permissive license, as well as the distribution of improvements to the product through the same license. Hydra is an open source project, as are most of the major components of the Hydra stack.
 
 #### Pull Request
 
@@ -137,8 +142,11 @@ A software pattern for implementing user interfaces. It divides a given software
 
 #### Triplestore
 
+#### URI
+
 #### View
 
 #### Vocabulary
+See *ontologies*. The term 'vocabularly' is generally used to describe less formal efforts to describe a domain.
 
 #### XML
