@@ -16,8 +16,8 @@ A Rails gem which provides a discovery interface to the full-text search engine,
 #### CAS (Central Authentication Service)
 A single sign on protocol for websites. One of many user authentication services used at UC.
 
-####
-Committers - In the parlance of agile development, Individuals who are authorized to contribute code (or commits) to a project, and who participate in the scrum development cycle. All Project Hydra committers have signed individual contributor licenses guaranteeing that their code commits are contributioned under an open source license
+#### Committers
+In the parlance of agile development, Individuals who are authorized to contribute code (or commits) to a project, and who participate in the scrum development cycle. All Project Hydra committers have signed individual contributor licenses guaranteeing that their code commits are contributioned under an open source license
 
 #### Controller
 The C in MVC, controllers are the part of a web application that takes input from users or systems to make changes in the underlying models, datastores, or databases.
